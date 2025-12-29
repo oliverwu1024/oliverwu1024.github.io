@@ -9,7 +9,7 @@ function Home() {
             <img src="/profile.jpg" alt="Oliver Wu" />
           </div>
           <div className="hero-text">
-            <h1 className="hero-title">Hi, I'm Oliver Wu</h1>
+            <h1 className="hero-title">Hi, I'm Oliver Wu (Che-Yu Wu)</h1>
             <p className="hero-subtitle">Welcome to my personal website</p>
             <p className="hero-description">
               I'm a software developer passionate about creating elegant solutions to complex problems.
