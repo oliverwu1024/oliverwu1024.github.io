@@ -6,7 +6,7 @@ function Home() {
       <div className="hero">
         <div className="hero-content">
           <div className="profile-picture">
-            <img src="/profile.svg" alt="Oliver Wu" />
+            <img src="/profile.jpg" alt="Oliver Wu" />
           </div>
           <div className="hero-text">
             <h1 className="hero-title">Hi, I'm Oliver Wu</h1>
