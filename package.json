@@ -1,0 +1,33 @@
+{
+  "name": "oliverwu1024.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && touch dist/.nojekyll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverwu1024/oliverwu1024.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/oliverwu1024/oliverwu1024.github.io/issues"
+  },
+  "homepage": "https://github.com/oliverwu1024/oliverwu1024.github.io#readme",
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.11.0",
+    "vite": "^7.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.2"
+  }
+}
