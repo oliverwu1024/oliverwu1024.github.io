@@ -15,19 +15,14 @@ function Contact() {
             <span>GitHub</span>
           </a>
 
-          <a href="mailto:your.email@example.com" className="contact-link">
+          <a href="mailto:cheyuwu1024@gmail.com" className="contact-link">
             <span className="contact-icon">📧</span>
             <span>Email</span>
           </a>
 
-          <a href="https://linkedin.com/in/yourprofile" className="contact-link" target="_blank" rel="noopener noreferrer">
+          <a href="https://linkedin.com/in/oliver-wu-aa40a7215" className="contact-link" target="_blank" rel="noopener noreferrer">
             <span className="contact-icon">💼</span>
             <span>LinkedIn</span>
-          </a>
-
-          <a href="https://twitter.com/yourhandle" className="contact-link" target="_blank" rel="noopener noreferrer">
-            <span className="contact-icon">🐦</span>
-            <span>Twitter</span>
           </a>
         </div>
       </div>
