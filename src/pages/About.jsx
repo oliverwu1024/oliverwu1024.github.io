@@ -3,34 +3,45 @@ import './About.css'
 function About() {
   return (
     <div className="page about-page">
-      <h1>About Me</h1>
+      <h1>Work & Volunteer Experience</h1>
       <div className="about-content">
-        <section className="about-section">
-          <h2>Background</h2>
-          <p>
-            I'm a passionate developer with expertise in web technologies and software development.
-            I love building things that make a difference.
-          </p>
-        </section>
-
-        <section className="about-section">
-          <h2>Skills</h2>
-          <div className="skills-grid">
-            <div className="skill-item">JavaScript</div>
-            <div className="skill-item">React</div>
-            <div className="skill-item">Node.js</div>
-            <div className="skill-item">Python</div>
-            <div className="skill-item">Git</div>
-            <div className="skill-item">Linux</div>
+        <section className="experience-item">
+          <div className="experience-header">
+            <h2>Software Developer</h2>
+            <span className="experience-period">2023 - Present</span>
           </div>
+          <h3 className="experience-company">Company Name</h3>
+          <ul className="experience-description">
+            <li>Developed and maintained web applications using React and Node.js</li>
+            <li>Collaborated with cross-functional teams to deliver high-quality software</li>
+            <li>Implemented new features and optimized existing codebase</li>
+          </ul>
         </section>
 
-        <section className="about-section">
-          <h2>Interests</h2>
-          <p>
-            When I'm not coding, I enjoy exploring new technologies, contributing to open source,
-            and sharing knowledge with the developer community.
-          </p>
+        <section className="experience-item">
+          <div className="experience-header">
+            <h2>Volunteer Developer</h2>
+            <span className="experience-period">2022 - 2023</span>
+          </div>
+          <h3 className="experience-company">Non-Profit Organization</h3>
+          <ul className="experience-description">
+            <li>Built websites for local community organizations</li>
+            <li>Provided technical support and training</li>
+            <li>Helped improve digital presence for social causes</li>
+          </ul>
+        </section>
+
+        <section className="experience-item">
+          <div className="experience-header">
+            <h2>Junior Developer</h2>
+            <span className="experience-period">2021 - 2022</span>
+          </div>
+          <h3 className="experience-company">Tech Startup</h3>
+          <ul className="experience-description">
+            <li>Assisted in developing mobile and web applications</li>
+            <li>Participated in code reviews and agile ceremonies</li>
+            <li>Learned best practices in software development</li>
+          </ul>
         </section>
       </div>
     </div>

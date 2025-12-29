@@ -30,9 +30,12 @@ function Home() {
           <div className="hero-text">
             <h1 className="hero-title">Hi, I'm Oliver Wu (Che-Yu Wu)</h1>
             <p className="hero-subtitle">Welcome to my personal website</p>
-            <p className="hero-description">
-              I'm a software developer passionate about creating elegant solutions to complex problems.
-            </p>
+            <div className="about-me">
+              <h2>About Me</h2>
+              <p className="hero-description">
+                I'm a software developer passionate about creating elegant solutions to complex problems.
+              </p>
+            </div>
           </div>
         </div>
       </div>

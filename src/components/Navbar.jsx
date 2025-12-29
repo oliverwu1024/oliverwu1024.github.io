@@ -22,12 +22,12 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link to="/about" className={`nav-link ${isActive('/about')}`}>
-              About
+              Experience
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/projects" className={`nav-link ${isActive('/projects')}`}>
-              Projects
+              Projects/Research
             </Link>
           </li>
           <li className="nav-item">

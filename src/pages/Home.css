@@ -1,7 +1,8 @@
 .home-page {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  padding-top: 2rem;
 }
 
 .hero {
@@ -81,6 +82,16 @@
   font-size: 1.5rem;
   color: var(--text-light);
   margin-bottom: 2rem;
+}
+
+.about-me {
+  margin-top: 2rem;
+}
+
+.about-me h2 {
+  font-size: 1.75rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
 }
 
 .hero-description {
