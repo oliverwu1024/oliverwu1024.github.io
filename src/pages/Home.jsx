@@ -61,6 +61,9 @@ function Home() {
           </div>
         </div>
       </div>
+      <div className="visitor-counter">
+        <img src="https://hits.sh/oliverwu1024.github.io.svg?label=Visitor%20%23&color=3b82f6&labelColor=1e40af" alt="Visitor counter" />
+      </div>
     </div>
   )
 }

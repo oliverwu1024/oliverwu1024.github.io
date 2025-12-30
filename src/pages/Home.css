@@ -3,6 +3,7 @@
   align-items: flex-start;
   justify-content: center;
   padding-top: 2rem;
+  position: relative;
 }
 
 .hero {
@@ -166,7 +167,29 @@
   flex-shrink: 0;
 }
 
+.visitor-counter {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  z-index: 100;
+}
+
+.visitor-counter img {
+  display: block;
+  border-radius: 0.375rem;
+  box-shadow: var(--shadow);
+}
+
 @media (max-width: 768px) {
+  .visitor-counter {
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  .visitor-counter img {
+    max-width: 150px;
+    height: auto;
+  }
   .hero-content {
     flex-direction: column;
     text-align: center;
