@@ -43,12 +43,15 @@ function Home() {
             <div className="skills-section">
               <h2>Skills</h2>
               <div className="skills-tags">
-                <span className="skill-tag">JavaScript</span>
-                <span className="skill-tag">React</span>
-                <span className="skill-tag">Node.js</span>
                 <span className="skill-tag">Python</span>
+                <span className="skill-tag">R</span>
+                <span className="skill-tag">SQL</span>
+                <span className="skill-tag">Time Series</span>
+                <span className="skill-tag">Machine Learning</span>
+                <span className="skill-tag">Statistical Modeling</span>
+                <span className="skill-tag">Forecasting</span>
+                <span className="skill-tag">PyTorch</span>
                 <span className="skill-tag">Git</span>
-                <span className="skill-tag">Linux</span>
               </div>
             </div>
 
