@@ -42,27 +42,55 @@ function Home() {
 
             <div className="skills-section">
               <h2>Skills</h2>
-              <div className="skills-tags">
-                <span className="skill-tag">Python</span>
-                <span className="skill-tag">R</span>
-                <span className="skill-tag">SQL</span>
-                <span className="skill-tag">PyTorch</span>
-                <span className="skill-tag">TensorFlow</span>
-                <span className="skill-tag">Machine Learning</span>
-                <span className="skill-tag">Deep Learning</span>
-                <span className="skill-tag">Time Series</span>
-                <span className="skill-tag">Forecasting</span>
-                <span className="skill-tag">Statistical Modeling</span>
-                <span className="skill-tag">Data Analytics</span>
-                <span className="skill-tag">Data Visualization</span>
-                <span className="skill-tag">Data Engineering</span>
-                <span className="skill-tag">Cloud Platforms</span>
-                <span className="skill-tag">Apache Spark</span>
-                <span className="skill-tag">Apache Kafka</span>
-                <span className="skill-tag">Pandas/NumPy</span>
-                <span className="skill-tag">Scikit-learn</span>
-                <span className="skill-tag">Linux</span>
-                <span className="skill-tag">Git</span>
+
+              <div className="skill-category">
+                <h3 className="category-title">Languages</h3>
+                <div className="skills-tags">
+                  <span className="skill-tag">Python</span>
+                  <span className="skill-tag">R</span>
+                  <span className="skill-tag">SQL</span>
+                </div>
+              </div>
+
+              <div className="skill-category">
+                <h3 className="category-title">ML/DL Frameworks</h3>
+                <div className="skills-tags">
+                  <span className="skill-tag">PyTorch</span>
+                  <span className="skill-tag">TensorFlow</span>
+                  <span className="skill-tag">Scikit-learn</span>
+                  <span className="skill-tag">Pandas/NumPy</span>
+                </div>
+              </div>
+
+              <div className="skill-category">
+                <h3 className="category-title">Data Science & Analytics</h3>
+                <div className="skills-tags">
+                  <span className="skill-tag">Machine Learning</span>
+                  <span className="skill-tag">Deep Learning</span>
+                  <span className="skill-tag">Time Series</span>
+                  <span className="skill-tag">Forecasting</span>
+                  <span className="skill-tag">Statistical Modeling</span>
+                  <span className="skill-tag">Data Analytics</span>
+                  <span className="skill-tag">Data Visualization</span>
+                </div>
+              </div>
+
+              <div className="skill-category">
+                <h3 className="category-title">Big Data & Engineering</h3>
+                <div className="skills-tags">
+                  <span className="skill-tag">Apache Spark</span>
+                  <span className="skill-tag">Apache Kafka</span>
+                  <span className="skill-tag">Data Engineering</span>
+                  <span className="skill-tag">Cloud Platforms</span>
+                </div>
+              </div>
+
+              <div className="skill-category">
+                <h3 className="category-title">Tools & Platforms</h3>
+                <div className="skills-tags">
+                  <span className="skill-tag">Git</span>
+                  <span className="skill-tag">Linux</span>
+                </div>
               </div>
             </div>
 
