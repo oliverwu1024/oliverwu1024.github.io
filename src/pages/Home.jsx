@@ -46,11 +46,20 @@ function Home() {
                 <span className="skill-tag">Python</span>
                 <span className="skill-tag">R</span>
                 <span className="skill-tag">SQL</span>
-                <span className="skill-tag">Time Series</span>
-                <span className="skill-tag">Machine Learning</span>
-                <span className="skill-tag">Statistical Modeling</span>
-                <span className="skill-tag">Forecasting</span>
                 <span className="skill-tag">PyTorch</span>
+                <span className="skill-tag">TensorFlow</span>
+                <span className="skill-tag">Machine Learning</span>
+                <span className="skill-tag">Deep Learning</span>
+                <span className="skill-tag">Time Series</span>
+                <span className="skill-tag">Forecasting</span>
+                <span className="skill-tag">Statistical Modeling</span>
+                <span className="skill-tag">Data Analytics</span>
+                <span className="skill-tag">Data Visualization</span>
+                <span className="skill-tag">Data Engineering</span>
+                <span className="skill-tag">Cloud Platforms</span>
+                <span className="skill-tag">Pandas/NumPy</span>
+                <span className="skill-tag">Scikit-learn</span>
+                <span className="skill-tag">Linux</span>
                 <span className="skill-tag">Git</span>
               </div>
             </div>
