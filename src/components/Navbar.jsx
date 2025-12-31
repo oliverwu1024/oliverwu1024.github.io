@@ -21,18 +21,23 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
+            <Link to="/resume" className={`nav-link ${isActive('/resume')}`}>
+              Resume
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link to="/about" className={`nav-link ${isActive('/about')}`}>
               Experience
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/projects" className={`nav-link ${isActive('/projects')}`}>
-              Projects/Research
+            <Link to="/education" className={`nav-link ${isActive('/education')}`}>
+              Education/Qualifications
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/resume" className={`nav-link ${isActive('/resume')}`}>
-              Resume
+            <Link to="/projects" className={`nav-link ${isActive('/projects')}`}>
+              Projects/Research
             </Link>
           </li>
           <li className="nav-item">

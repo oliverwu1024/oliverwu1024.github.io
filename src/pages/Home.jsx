@@ -26,6 +26,16 @@ function Home() {
                 </svg>
               </a>
             </div>
+            <div className="education-info">
+              <div className="education-degree">
+                <strong>Master of Data Science</strong>
+                <span>Monash University</span>
+              </div>
+              <div className="education-degree">
+                <strong>Bachelor of Commerce (Finance)</strong>
+                <span>University of Melbourne</span>
+              </div>
+            </div>
           </div>
           <div className="hero-text">
             <h1 className="hero-title">Hi, I'm Oliver Wu (Che-Yu Wu)</h1>
