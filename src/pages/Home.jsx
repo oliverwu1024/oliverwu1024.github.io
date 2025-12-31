@@ -57,6 +57,8 @@ function Home() {
                 <span className="skill-tag">Data Visualization</span>
                 <span className="skill-tag">Data Engineering</span>
                 <span className="skill-tag">Cloud Platforms</span>
+                <span className="skill-tag">Apache Spark</span>
+                <span className="skill-tag">Apache Kafka</span>
                 <span className="skill-tag">Pandas/NumPy</span>
                 <span className="skill-tag">Scikit-learn</span>
                 <span className="skill-tag">Linux</span>
