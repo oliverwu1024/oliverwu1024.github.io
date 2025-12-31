@@ -93,16 +93,6 @@ function Home() {
                 </div>
               </div>
             </div>
-
-            <div className="resume-section">
-              <h2>Resume</h2>
-              <a href="/resume.pdf" className="resume-button" download>
-                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
-                  <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-                </svg>
-                Download Resume
-              </a>
-            </div>
           </div>
         </div>
       </div>

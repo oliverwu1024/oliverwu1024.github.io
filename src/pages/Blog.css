@@ -1,0 +1,16 @@
+.blog-page h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.blog-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.coming-soon {
+  font-size: 1.5rem;
+  color: var(--text-light);
+  padding: 4rem 2rem;
+}

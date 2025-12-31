@@ -31,6 +31,16 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
+            <Link to="/resume" className={`nav-link ${isActive('/resume')}`}>
+              Resume
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/blog" className={`nav-link ${isActive('/blog')}`}>
+              Blog
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link to="/contact" className={`nav-link ${isActive('/contact')}`}>
               Contact
             </Link>
