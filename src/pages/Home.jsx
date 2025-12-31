@@ -33,7 +33,10 @@ function Home() {
             <div className="about-me">
               <h2>About Me</h2>
               <p className="hero-description">
-                I'm a software developer passionate about creating elegant solutions to complex problems.
+                I'm a data analyst and data scientist who enjoys turning raw data into insights that actually matter. I like working across the full data workflow, from cleaning and exploring data, to building models and communicating results in a clear way. I've worked with Python, R, and SQL on projects involving analytics, forecasting, and machine learning, and I enjoy building things that sit between technical depth and practical use, whether that's a predictive model, an analysis pipeline, or a simple dashboard that helps people make better decisions.
+              </p>
+              <p className="hero-description">
+                On the research side, I'm especially interested in statistics, time series, and machine learning, and how these areas can be combined more effectively. I'm drawn to problems like forecasting under uncertainty, handling noisy or seasonal data, and understanding when models fail. A lot of my work explores blending classical statistical ideas with modern deep learning such as Bayesian methods, synthetic data, and foundation-style models for time series. I care not just about model performance, but also about robustness, interpretability, and whether a method actually holds up in real-world data.
               </p>
             </div>
 

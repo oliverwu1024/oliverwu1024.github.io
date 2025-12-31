@@ -99,6 +99,11 @@
   font-size: 1.125rem;
   color: var(--text-color);
   line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.hero-description:last-child {
+  margin-bottom: 0;
 }
 
 .skills-section {
