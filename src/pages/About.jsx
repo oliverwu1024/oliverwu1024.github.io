@@ -9,15 +9,17 @@ const workExperience = [
     bullets: [
       'Gathered and structured space-usage data to guide classroom planning and scheduling.',
       'Partnered with stakeholders to translate findings into practical, decision-ready insights.',
+      'Maintained clear documentation to keep planning aligned across teams.',
     ],
   },
   {
     title: 'Project Intern',
     period: 'Jul 2025 – Aug 2025',
-    company: 'Monash & Warwick University',
+    company: 'Monash University & University of Warwick',
     bullets: [
       'Performed data-driven analysis on fibre-optic infrastructure to inform U.S. market strategy.',
-      'Delivered clear Excel and R reports that surfaced trends and actionable opportunities.',
+      'Delivered clear reports that surfaced trends and actionable opportunities.',
+      'Summarized findings into concise recommendations for project stakeholders.',
     ],
   },
   {
@@ -26,6 +28,8 @@ const workExperience = [
     company: "Dan Murphy's",
     bullets: [
       'Provided attentive customer service while keeping daily operations accurate and smooth.',
+      'Resolved customer requests quickly and professionally to maintain service quality.',
+      'Supported team workflows during busy periods with reliable attention to detail.',
     ],
   },
 ]
