@@ -1,48 +1,80 @@
+import { useState } from 'react'
 import './About.css'
 
+const workExperience = [
+  {
+    title: 'Software Developer',
+    period: '2023 - Present',
+    company: 'Company Name',
+    bullets: [
+      'Developed and maintained web applications using React and Node.js',
+      'Collaborated with cross-functional teams to deliver high-quality software',
+      'Implemented new features and optimized existing codebase',
+    ],
+  },
+  {
+    title: 'Junior Developer',
+    period: '2021 - 2022',
+    company: 'Tech Startup',
+    bullets: [
+      'Assisted in developing mobile and web applications',
+      'Participated in code reviews and agile ceremonies',
+      'Learned best practices in software development',
+    ],
+  },
+]
+
+const volunteerExperience = [
+  {
+    title: 'Volunteer Developer',
+    period: '2022 - 2023',
+    company: 'Non-Profit Organization',
+    bullets: [
+      'Built websites for local community organizations',
+      'Provided technical support and training',
+      'Helped improve digital presence for social causes',
+    ],
+  },
+]
+
 function About() {
+  const [activeTab, setActiveTab] = useState('work')
+  const items = activeTab === 'work' ? workExperience : volunteerExperience
+
   return (
     <div className="page about-page">
-      <h1>Work & Volunteer Experience</h1>
+      <h1>Experience</h1>
+      <div className="experience-tabs">
+        <button
+          type="button"
+          className={`tab-button ${activeTab === 'work' ? 'active' : ''}`}
+          onClick={() => setActiveTab('work')}
+        >
+          Work
+        </button>
+        <button
+          type="button"
+          className={`tab-button ${activeTab === 'volunteer' ? 'active' : ''}`}
+          onClick={() => setActiveTab('volunteer')}
+        >
+          Volunteer
+        </button>
+      </div>
       <div className="about-content">
-        <section className="experience-item">
-          <div className="experience-header">
-            <h2>Software Developer</h2>
-            <span className="experience-period">2023 - Present</span>
-          </div>
-          <h3 className="experience-company">Company Name</h3>
-          <ul className="experience-description">
-            <li>Developed and maintained web applications using React and Node.js</li>
-            <li>Collaborated with cross-functional teams to deliver high-quality software</li>
-            <li>Implemented new features and optimized existing codebase</li>
-          </ul>
-        </section>
-
-        <section className="experience-item">
-          <div className="experience-header">
-            <h2>Volunteer Developer</h2>
-            <span className="experience-period">2022 - 2023</span>
-          </div>
-          <h3 className="experience-company">Non-Profit Organization</h3>
-          <ul className="experience-description">
-            <li>Built websites for local community organizations</li>
-            <li>Provided technical support and training</li>
-            <li>Helped improve digital presence for social causes</li>
-          </ul>
-        </section>
-
-        <section className="experience-item">
-          <div className="experience-header">
-            <h2>Junior Developer</h2>
-            <span className="experience-period">2021 - 2022</span>
-          </div>
-          <h3 className="experience-company">Tech Startup</h3>
-          <ul className="experience-description">
-            <li>Assisted in developing mobile and web applications</li>
-            <li>Participated in code reviews and agile ceremonies</li>
-            <li>Learned best practices in software development</li>
-          </ul>
-        </section>
+        {items.map((item) => (
+          <section key={`${item.title}-${item.period}`} className="experience-item">
+            <div className="experience-header">
+              <h2>{item.title}</h2>
+              <span className="experience-period">{item.period}</span>
+            </div>
+            <h3 className="experience-company">{item.company}</h3>
+            <ul className="experience-description">
+              {item.bullets.map((bullet) => (
+                <li key={bullet}>{bullet}</li>
+              ))}
+            </ul>
+          </section>
+        ))}
       </div>
     </div>
   )
