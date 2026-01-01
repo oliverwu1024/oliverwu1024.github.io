@@ -7,8 +7,8 @@ const workExperience = [
     period: 'Mar 2024 – Oct 2025',
     company: 'Monash University',
     bullets: [
-      'Collected data for classroom planning.',
-      'Collaborated with teams to deliver insights that improved decision-making efficiency.',
+      'Gathered and structured space-usage data to guide classroom planning and scheduling.',
+      'Partnered with stakeholders to translate findings into practical, decision-ready insights.',
     ],
   },
   {
@@ -16,8 +16,8 @@ const workExperience = [
     period: 'Jul 2025 – Aug 2025',
     company: 'Monash & Warwick University',
     bullets: [
-      'Conducted data-driven analysis of fibre-optic infrastructure for U.S. market strategy.',
-      'Delivered Excel and R reports identifying trends and actionable opportunities.',
+      'Performed data-driven analysis on fibre-optic infrastructure to inform U.S. market strategy.',
+      'Delivered clear Excel and R reports that surfaced trends and actionable opportunities.',
     ],
   },
   {
@@ -25,7 +25,7 @@ const workExperience = [
     period: 'Oct 2024 – Jan 2025',
     company: "Dan Murphy's",
     bullets: [
-      'Delivered quality customer service and maintained accuracy in daily operations.',
+      'Provided attentive customer service while keeping daily operations accurate and smooth.',
     ],
   },
 ]
