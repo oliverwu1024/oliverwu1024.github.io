@@ -37,9 +37,26 @@ const volunteerExperience = [
   },
 ]
 
+const researchExperience = [
+  {
+    title: 'Research Assistant',
+    period: 'Year - Year',
+    company: 'Research Lab or University',
+    bullets: [
+      'Describe the research focus and your role',
+      'Highlight key methods, tools, or results',
+      'Note publications, posters, or presentations if relevant',
+    ],
+  },
+]
+
 function About() {
   const [activeTab, setActiveTab] = useState('work')
-  const items = activeTab === 'work' ? workExperience : volunteerExperience
+  const items = (() => {
+    if (activeTab === 'volunteer') return volunteerExperience
+    if (activeTab === 'research') return researchExperience
+    return workExperience
+  })()
 
   return (
     <div className="page about-page">
@@ -58,6 +75,13 @@ function About() {
           onClick={() => setActiveTab('volunteer')}
         >
           Volunteer
+        </button>
+        <button
+          type="button"
+          className={`tab-button ${activeTab === 'research' ? 'active' : ''}`}
+          onClick={() => setActiveTab('research')}
+        >
+          Research
         </button>
       </div>
       <div className="about-content">
