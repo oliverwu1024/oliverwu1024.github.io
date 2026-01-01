@@ -1,8 +1,14 @@
 import { Link, useLocation } from 'react-router-dom'
+import { useEffect, useState } from 'react'
 import './Navbar.css'
 
 function Navbar() {
   const location = useLocation()
+  const [isOpen, setIsOpen] = useState(false)
+
+  useEffect(() => {
+    setIsOpen(false)
+  }, [location.pathname])
 
   const isActive = (path) => {
     return location.pathname === path ? 'active' : ''
@@ -14,7 +20,18 @@ function Navbar() {
         <Link to="/" className="nav-logo">
           Oliver Wu
         </Link>
-        <ul className="nav-menu">
+        <button
+          className="nav-toggle"
+          type="button"
+          aria-label="Toggle navigation"
+          aria-expanded={isOpen}
+          onClick={() => setIsOpen((prev) => !prev)}
+        >
+          <span className="nav-toggle-bar"></span>
+          <span className="nav-toggle-bar"></span>
+          <span className="nav-toggle-bar"></span>
+        </button>
+        <ul className={`nav-menu ${isOpen ? 'open' : ''}`}>
           <li className="nav-item">
             <Link to="/" className={`nav-link ${isActive('/')}`}>
               Home

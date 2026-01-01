@@ -217,6 +217,11 @@
     gap: 2rem;
   }
 
+  .education-info {
+    width: 100%;
+    max-width: 280px;
+  }
+
   .profile-picture img {
     width: 200px;
     height: 200px;
