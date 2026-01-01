@@ -3,23 +3,29 @@ import './About.css'
 
 const workExperience = [
   {
-    title: 'Software Developer',
-    period: '2023 - Present',
-    company: 'Company Name',
+    title: 'Space Utilisation Auditor',
+    period: 'Mar 2024 – Oct 2025',
+    company: 'Monash University',
     bullets: [
-      'Developed and maintained web applications using React and Node.js',
-      'Collaborated with cross-functional teams to deliver high-quality software',
-      'Implemented new features and optimized existing codebase',
+      'Collected data for classroom planning.',
+      'Collaborated with teams to deliver insights that improved decision-making efficiency.',
     ],
   },
   {
-    title: 'Junior Developer',
-    period: '2021 - 2022',
-    company: 'Tech Startup',
+    title: 'Project Intern',
+    period: 'Jul 2025 – Aug 2025',
+    company: 'Monash & Warwick University',
     bullets: [
-      'Assisted in developing mobile and web applications',
-      'Participated in code reviews and agile ceremonies',
-      'Learned best practices in software development',
+      'Conducted data-driven analysis of fibre-optic infrastructure for U.S. market strategy.',
+      'Delivered Excel and R reports identifying trends and actionable opportunities.',
+    ],
+  },
+  {
+    title: 'Customer Assistant',
+    period: 'Oct 2024 – Jan 2025',
+    company: "Dan Murphy's",
+    bullets: [
+      'Delivered quality customer service and maintained accuracy in daily operations.',
     ],
   },
 ]
