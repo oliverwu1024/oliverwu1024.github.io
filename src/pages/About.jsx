@@ -36,13 +36,23 @@ const workExperience = [
 
 const volunteerExperience = [
   {
-    title: 'Volunteer Developer',
-    period: '2022 - 2023',
-    company: 'Non-Profit Organization',
+    title: 'Peer Mentor',
+    period: 'Feb 2025 – Jun 2025',
+    company: 'Monash University',
     bullets: [
-      'Built websites for local community organizations',
-      'Provided technical support and training',
-      'Helped improve digital presence for social causes',
+      'Organised and led weekly mentoring sessions to guide first-year students.',
+      'Hosted social and networking events to strengthen peer connections.',
+      'Demonstrated leadership through engagement, coordination, and student support.',
+    ],
+  },
+  {
+    title: 'Student Ambassador',
+    period: 'Aug 2024 – Jun 2025',
+    company: 'Monash University English Connect',
+    bullets: [
+      'Hosted social and networking events to promote intercultural engagement and inclusion.',
+      'Volunteered at outreach programs, supporting student communication and community initiatives.',
+      'Facilitated language exchange activities to build cross-cultural understanding.',
     ],
   },
 ]
