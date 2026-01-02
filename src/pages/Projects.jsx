@@ -14,11 +14,13 @@ function Projects() {
     },
     {
       id: 2,
-      title: "Project Two",
-      description: "Coming soon - describe your next project here",
-      technologies: ["JavaScript", "Node.js"],
-      link: "#",
-      repo: "#"
+      title: "My Master Thesis",
+      description: "Combining Bayesian inference with a Prior-Fitted Network for time series forecasting.",
+      technologies: ["Time Series", "Bayesian", "PFN", "Python"],
+      status: "Completed",
+      statusTone: "green",
+      link: "https://github.com/oliverwu1024/my_master_thesis/blob/main/31977251_Che-YuWu_AngusDempster_Thesis.pdf",
+      repo: "https://github.com/oliverwu1024/my_master_thesis"
     },
     {
       id: 3,
