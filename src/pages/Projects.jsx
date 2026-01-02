@@ -42,7 +42,7 @@ function Projects() {
               <h3>{project.title}</h3>
               {project.status && (
                 <span className={`project-status ${project.statusTone || ''}`}>
-                  <span className="status-dot" aria-hidden="true"></span>
+                  <span className={`status-dot ${project.statusTone || ''}`} aria-hidden="true"></span>
                   {project.status}
                 </span>
               )}
