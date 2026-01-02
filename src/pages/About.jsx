@@ -60,12 +60,21 @@ const volunteerExperience = [
 const researchExperience = [
   {
     title: 'Research Assistant',
-    period: 'Year - Year',
-    company: 'Research Lab or University',
+    period: 'Feb 2024 – Present',
+    company: 'Monash Temporal Analytics Lab',
     bullets: [
-      'Describe the research focus and your role',
-      'Highlight key methods, tools, or results',
-      'Note publications, posters, or presentations if relevant',
+      'Participated in weekly research group meetings and reading sessions on time-series and machine learning.',
+      'Collaborated with researchers to share feedback on projects and explore interdisciplinary applications.',
+    ],
+  },
+  {
+    title: 'Master Thesis',
+    period: 'Ongoing',
+    company: 'Combining Bayesian Inference with Prior-Fitted Network for Time Series Forecasting',
+    bullets: [
+      'Conducted a literature review on forecasting models and learning methods.',
+      'Developed a model to generate synthetic time-series data for training and evaluation.',
+      'Designed and implemented a Prior-Fitted Network (PFN) for zero-shot forecasting using Bayesian priors.',
     ],
   },
 ]
