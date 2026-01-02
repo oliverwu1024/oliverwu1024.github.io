@@ -24,11 +24,13 @@ function Projects() {
     },
     {
       id: 3,
-      title: "Project Three",
-      description: "Coming soon - describe another project here",
-      technologies: ["Python", "API"],
-      link: "#",
-      repo: "#"
+      title: "Shiny Dashboard",
+      description: "An interactive dashboard showcasing data exploration and insights.",
+      technologies: ["R", "Shiny", "Data Visualization"],
+      status: "Completed",
+      statusTone: "blue",
+      link: "https://oliverwu1024.shinyapps.io/che-yu_wu_31977251_code/",
+      repo: "https://github.com/oliverwu1024/shiny_dashboard"
     }
   ]
 
