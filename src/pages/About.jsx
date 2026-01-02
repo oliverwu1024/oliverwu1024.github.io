@@ -60,7 +60,7 @@ const volunteerExperience = [
 const researchExperience = [
   {
     title: 'Research Assistant',
-    period: 'Feb 2024 – Present',
+    period: 'Jan 2024 – Present',
     company: 'Monash Temporal Analytics Lab',
     bullets: [
       'Participated in weekly research group meetings and reading sessions on time-series and machine learning.',
