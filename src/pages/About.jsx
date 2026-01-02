@@ -69,7 +69,7 @@ const researchExperience = [
   },
   {
     title: 'Master Thesis',
-    period: 'Ongoing',
+    period: 'Feb 2025 – Dec 2025',
     company: 'Combining Bayesian Inference with Prior-Fitted Network for Time Series Forecasting',
     bullets: [
       'Conducted a literature review on forecasting models and learning methods.',
