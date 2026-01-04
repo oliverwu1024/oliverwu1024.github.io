@@ -4,7 +4,7 @@ import './Education.css'
 const educationItems = [
   {
     title: 'Master of Data Science',
-    period: 'Expected 2026',
+    period: 'Feb 2024 - Dec 2025',
     institution: 'Monash University',
     description: [
       'Grade: High Distinction 80.9, Thesis Grade 91',
@@ -24,22 +24,10 @@ const educationItems = [
 
 const qualificationItems = [
   {
-    title: 'PTE Overall 90/90',
-    period: '2025',
-    institution: 'Pearson Test of English',
-    description: 'English language proficiency certification.',
-  },
-  {
-    title: 'IELTS Overall 7.0/9',
-    period: '2019',
-    institution: 'International English Language Testing System',
-    description: 'English language proficiency certification.',
-  },
-  {
-    title: 'TOEFL Overall 104/120',
-    period: '2019',
-    institution: 'Test of English as a Foreign Language',
-    description: 'English language proficiency certification.',
+    title: 'Qualification Title',
+    period: 'Year',
+    institution: 'Issuing Organization',
+    description: 'Add a short summary of this qualification.',
   },
 ]
 
