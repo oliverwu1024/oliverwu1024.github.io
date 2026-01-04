@@ -16,7 +16,7 @@ const educationItems = [
   {
     title: 'Bachelor of Commerce (Finance)',
     period: 'Aug 2020 - Dec 2023',
-    institution: 'University of Melbourne (Unimelb)',
+    institution: 'University of Melbourne',
     description:
       'Quantitative subjects: Linear Algebra, Calculus, Econometrics, Probability, Statistics, Time Series Analysis and Forecasting.',
   },
@@ -24,10 +24,22 @@ const educationItems = [
 
 const qualificationItems = [
   {
-    title: 'Qualification Title',
-    period: 'Year',
-    institution: 'Issuing Organization',
-    description: 'Add a short summary of this qualification.',
+    title: 'PTE Overall 90/90',
+    period: '2025',
+    institution: 'Pearson Test of English',
+    description: 'English language proficiency certification.',
+  },
+  {
+    title: 'IELTS Overall 7.0/9',
+    period: '2019',
+    institution: 'International English Language Testing System',
+    description: 'English language proficiency certification.',
+  },
+  {
+    title: 'TOEFL Overall 104/120',
+    period: '2019',
+    institution: 'Test of English as a Foreign Language',
+    description: 'English language proficiency certification.',
   },
 ]
 
