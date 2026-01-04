@@ -6,24 +6,40 @@ const educationItems = [
     title: 'Master of Data Science',
     period: 'Expected 2026',
     institution: 'Monash University',
-    description:
-      'Advanced studies in data science, machine learning, and statistical analysis.',
+    description: [
+      'Grade: High Distinction 80.9, Thesis Grade 91',
+      'Thesis: Combining Full Bayesian Inference with Prior-Fitted Network for Time Series Forecasting',
+      'Supervisors: Dr. Angus Dempster, Dr. Christoph Bergmeir, Prof. Daniel Schmidt',
+      'Focus areas: Data Analysis, Data Engineering, Data Science, Data Modelling, Data Visualisation, Statistical Modeling, Statistical Methods, Probabilistic Modelling, Machine Learning, Deep Learning',
+    ],
   },
   {
     title: 'Bachelor of Commerce (Finance)',
-    period: 'Completed 2023',
-    institution: 'University of Melbourne',
+    period: 'Aug 2020 - Dec 2023',
+    institution: 'University of Melbourne (Unimelb)',
     description:
-      'Focused on financial analysis, quantitative methods, and economic modeling.',
+      'Quantitative subjects: Linear Algebra, Calculus, Econometrics, Probability, Statistics, Time Series Analysis and Forecasting.',
   },
 ]
 
 const qualificationItems = [
   {
-    title: 'Qualification Title',
-    period: 'Year',
-    institution: 'Issuing Organization',
-    description: 'Add a short summary of this qualification.',
+    title: 'PTE Overall 90/90',
+    period: '2025',
+    institution: 'Pearson Test of English',
+    description: 'English language proficiency certification.',
+  },
+  {
+    title: 'IELTS Overall 7.0/9',
+    period: '2019',
+    institution: 'International English Language Testing System',
+    description: 'English language proficiency certification.',
+  },
+  {
+    title: 'TOEFL Overall 104/120',
+    period: '2019',
+    institution: 'Test of English as a Foreign Language',
+    description: 'English language proficiency certification.',
   },
 ]
 
@@ -58,7 +74,15 @@ function Education() {
               <span className="education-period">{item.period}</span>
             </div>
             <h3 className="education-institution">{item.institution}</h3>
-            <p className="education-description">{item.description}</p>
+            {Array.isArray(item.description) ? (
+              <ul className="education-description">
+                {item.description.map((line) => (
+                  <li key={line}>{line}</li>
+                ))}
+              </ul>
+            ) : (
+              <p className="education-description">{item.description}</p>
+            )}
           </section>
         ))}
       </div>
