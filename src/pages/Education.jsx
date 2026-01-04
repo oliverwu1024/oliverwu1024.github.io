@@ -32,13 +32,28 @@ const qualificationItems = [
 ]
 
 function Education() {
-  const [activeTab, setActiveTab] = useState('education')
-  const items = activeTab === 'education' ? educationItems : qualificationItems
+  const [activeTab, setActiveTab] = useState('all')
+  const sections =
+    activeTab === 'education'
+      ? [{ title: 'Education', items: educationItems }]
+      : activeTab === 'qualifications'
+        ? [{ title: 'Qualifications', items: qualificationItems }]
+        : [
+            { title: 'Education', items: educationItems },
+            { title: 'Qualifications', items: qualificationItems },
+          ]
 
   return (
     <div className="page education-page">
       <h1>Education & Qualifications</h1>
       <div className="education-tabs">
+        <button
+          type="button"
+          className={`tab-button ${activeTab === 'all' ? 'active' : ''}`}
+          onClick={() => setActiveTab('all')}
+        >
+          All
+        </button>
         <button
           type="button"
           className={`tab-button ${activeTab === 'education' ? 'active' : ''}`}
@@ -55,23 +70,28 @@ function Education() {
         </button>
       </div>
       <div className="education-content">
-        {items.map((item) => (
-          <section key={`${item.title}-${item.period}`} className="education-item">
-            <div className="education-header">
-              <h2>{item.title}</h2>
-              <span className="education-period">{item.period}</span>
-            </div>
-            <h3 className="education-institution">{item.institution}</h3>
-            {Array.isArray(item.description) ? (
-              <ul className="education-description">
-                {item.description.map((line) => (
-                  <li key={line}>{line}</li>
-                ))}
-              </ul>
-            ) : (
-              <p className="education-description">{item.description}</p>
-            )}
-          </section>
+        {sections.map((section) => (
+          <div key={section.title} className="education-section">
+            <h2 className="education-section-title">{section.title}</h2>
+            {section.items.map((item) => (
+              <section key={`${item.title}-${item.period}`} className="education-item">
+                <div className="education-header">
+                  <h3>{item.title}</h3>
+                  <span className="education-period">{item.period}</span>
+                </div>
+                <h4 className="education-institution">{item.institution}</h4>
+                {Array.isArray(item.description) ? (
+                  <ul className="education-description">
+                    {item.description.map((line) => (
+                      <li key={line}>{line}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="education-description">{item.description}</p>
+                )}
+              </section>
+            ))}
+          </div>
         ))}
       </div>
     </div>
